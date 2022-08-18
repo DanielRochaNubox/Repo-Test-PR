@@ -1,25 +1,20 @@
-name: Reporte General de Cambios
-description: Reporte de Cambios al Aplicativo
+## Historia Asociada
+<-- Agrega la Url del MUL Asociado -->
 
-body:
-  - type: markdown
-    attributes:
-      value: |
-        Gracias, el objetivo es tener nuestros PR's con información simple pero efectiva!!
-  - type: input
-    id: mulAsociada
-    attributes:
-      label: Historia Asociada
-      description: En esta casilla debes ingresar la url historia asociada al cambio que estas aplicando.
-      placeholder: https://jiranubox.atlassian.net/browse/MUL-6693
-    validations:
-      required: true
-  - type: textarea
-    id: what-happened
-    attributes:
-      label: Cuáles son los cambios?
-      description: Sección correspondiente a la descripción general del cambio.
-      placeholder: Se ha modificado el módulo que calcula el Rut
-      value: "Se ha modificado el módulo que calcula el Rut"
-    validations:
-      required: true
+## Resumen de los cambios
+<-- Agrega una breve descripción de los cambios -->
+
+## Checklist
+<-- Deja solo con [x] aquello que realizaste -->
+
+- [x] Compilación correcta
+- [x] Documentación actualizada 
+- [x] Se agregaron unit test
+- [x] Unit test estan correctos
+
+## Notas
+<-- Agrega notas adicionales -->
+
+## Screensshots
+<-- Agrega imagenes de tus resultados locales -->
+
