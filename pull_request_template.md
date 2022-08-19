@@ -1,12 +1,7 @@
 ## Descripción
 
-<-- Incluya un resumen del cambio. --> 
+<-- Ingresa un resumen del cambio. que solucuionaste, contexto y dependencias --> 
 
-<-- Qué problema se solucionó. --> 
-
-<-- Motivación y el contexto pertinentes. --> 
-
-<-- Enumere las dependencias necesarias para este cambio. -->
 
 ## Historia asociada
 
