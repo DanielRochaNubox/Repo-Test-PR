@@ -1,20 +1,43 @@
-## Historia Asociada
-<-- Agrega la Url del MUL Asociado -->
+## Descripción
 
-## Resumen de los cambios
-<-- Agrega una breve descripción de los cambios -->
+<-- Ingresa un resumen del cambio. que solucuionaste, contexto y dependencias --> 
 
-## Checklist
-<-- Deja solo con [x] aquello que realizaste -->
 
-- [x] Compilación correcta
-- [x] Documentación actualizada 
-- [x] Se agregaron unit test
-- [x] Unit test estan correctos
+## Historia asociada
 
-## Notas
-<-- Agrega notas adicionales -->
+<-- Ingresa la Url de la historia en la que estas trabajando. -->
 
-## Screensshots
-<-- Agrega imagenes de tus resultados locales -->
+
+## Tipo de Cambio
+
+<-- Por favor, elimine las opciones que no son relevantes. -->
+
+- [ ] Corrección de errores (cambio continuo que soluciona un problema).
+- [ ] Nueva característica (cambio continuo que agrega funcionalidad).
+- [ ] Cambio importante (arreglo o característica que haría que la funcionalidad existente no funcionara como se esperaba).
+- [ ] Este cambio requiere una actualización de la documentación.
+
+## ¿Cómo se ha probado esto?
+
+Describa las pruebas que ejecutó para verificar los cambios. Proporcione instrucciones para que podamos reproducir. Indique también cualquier detalle relevante para su configuración de prueba
+
+- [ ] Test A
+- [ ] Test B
+
+**Configuracion de Pruebas**:
+* Firmware version:
+* Hardware:
+* Toolchain:
+* SDK:
+
+# Lista de Verificación:
+
+- [ ] Mi código sigue las pautas de estilo de este proyecto.
+- [ ] He realizado una auto-revisión de mi propio código.
+- [ ] He comentado mi código, particularmente en áreas difíciles de entender.
+- [ ] He realizado los cambios correspondientes a la documentación.
+- [ ] Mis cambios no generan nuevas advertencias.
+- [ ] He agregado pruebas que prueban que mi solución es efectiva o que mi función funciona.
+- [ ] Las pruebas unitarias nuevas y existentes pasan localmente con mis cambios.
+- [ ] Todos los cambios dependientes se fusionaron y publicaron en módulos posteriores.
 
