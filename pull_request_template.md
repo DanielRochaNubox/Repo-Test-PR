@@ -1,6 +1,6 @@
 ## Descripción
 
-<-- Ingresa un resumen del cambio. que solucuionaste, contexto y dependencias --> 
+<-- Ingresa un resumen del cambio. que solucionaste, contexto y dependencias --> 
 
 
 ## Historia asociada
@@ -10,7 +10,7 @@
 
 ## Tipo de Cambio
 
-<-- Por favor, elimine las opciones que no son relevantes. -->
+<-- Elimina las opciones que no son relevantes. -->
 
 - [ ] Corrección de errores (cambio continuo que soluciona un problema).
 - [ ] Nueva característica (cambio continuo que agrega funcionalidad).
@@ -24,7 +24,7 @@ Describa las pruebas que ejecutó para verificar los cambios. Proporcione instru
 - [ ] Test A
 - [ ] Test B
 
-**Configuracion de Pruebas**:
+**Configuración de Pruebas**:
 * Firmware version:
 * Hardware:
 * Toolchain:
