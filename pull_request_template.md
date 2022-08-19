@@ -10,7 +10,7 @@
 
 ## Tipo de Cambio
 
-<-- Elimina las opciones que no son relevantes. -->
+<-- Agrega una x en las opciones que corresponda Ej: [x]. -->
 
 - [ ] Corrección de errores (cambio continuo que soluciona un problema).
 - [ ] Nueva característica (cambio continuo que agrega funcionalidad).
@@ -21,8 +21,8 @@
 
 Describa las pruebas que ejecutó para verificar los cambios. Proporcione instrucciones para que podamos reproducir. Indique también cualquier detalle relevante para su configuración de prueba
 
-- [ ] Test A
-- [ ] Test B
+- [x] Prueba integración con Wcf Cirrus servicio Comprobantes - método CargaMasiva.
+- [x] Pruebas de estress para sobrecarga de Wcf Cirrus.
 
 **Configuración de Pruebas**:
 * Firmware version:
@@ -30,7 +30,8 @@ Describa las pruebas que ejecutó para verificar los cambios. Proporcione instru
 * Toolchain:
 * SDK:
 
-# Lista de Verificación:
+## Lista de Verificación:
+<-- Agrega un x en las opciones que corresponda Ej: [x] -->
 
 - [ ] Mi código sigue las pautas de estilo de este proyecto.
 - [ ] He realizado una auto-revisión de mi propio código.
