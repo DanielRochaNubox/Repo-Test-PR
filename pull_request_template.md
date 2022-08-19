@@ -1,6 +1,6 @@
 ## Descripción
 
-<-- Ingresa un resumen del cambio. que solucuionaste, contexto y dependencias --> 
+<-- Ingresa un resumen del cambio. que solucionaste, contexto y dependencias --> 
 
 
 ## Historia asociada
@@ -10,7 +10,7 @@
 
 ## Tipo de Cambio
 
-<-- Por favor, elimine las opciones que no son relevantes. -->
+<-- Agrega una x en las opciones que corresponda Ej: [x]. -->
 
 - [ ] Corrección de errores (cambio continuo que soluciona un problema).
 - [ ] Nueva característica (cambio continuo que agrega funcionalidad).
@@ -21,16 +21,17 @@
 
 Describa las pruebas que ejecutó para verificar los cambios. Proporcione instrucciones para que podamos reproducir. Indique también cualquier detalle relevante para su configuración de prueba
 
-- [ ] Test A
-- [ ] Test B
+- [x] Prueba integración con Wcf Cirrus servicio Comprobantes - método CargaMasiva.
+- [x] Pruebas de estress para sobrecarga de Wcf Cirrus.
 
-**Configuracion de Pruebas**:
+**Configuración de Pruebas**:
 * Firmware version:
 * Hardware:
 * Toolchain:
 * SDK:
 
-# Lista de Verificación:
+## Lista de Verificación:
+<-- Agrega un x en las opciones que corresponda Ej: [x] -->
 
 - [ ] Mi código sigue las pautas de estilo de este proyecto.
 - [ ] He realizado una auto-revisión de mi propio código.
