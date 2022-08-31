@@ -1,0 +1,64 @@
+
+=== Solo dejar aquel que corresponda y modificarlo con la información correspondiente ===
+
+===[REVERT: revertir una acción. Ej: un commit con type, scope, subject y footer]===
+
+revert (intercom): el trackeo era por front y no por back
+
+Refs (N° commit): 676104e
+--------------------------------------------------------------------------------------------
+==[FEAT: nueva funcionalidad. Ej: un commit con type, scope, subject y footer]==
+
+feat (subscriptions): se agrega servicio para obtener días gratis
+
+Author: Nestor Hasin
+--------------------------------------------------------------------------------------------
+
+===[FIX: una corrección de error. Ej: un commit con type, scope, subject y body]===
+
+fix (payments): se corrige lógica de primer pago
+
+se tiene en cuenta los días gratis que el usuario tiene al momento de abonar para calcular
+el monto que va a tener que abonar 
+--------------------------------------------------------------------------------------------
+===[PERF: cambio de código que mejore el rendimiento. Ej: un commit con type, 
+       scope, subject, body y footer]===
+
+perf (users): se cambia el proceso en los pagos recurrentes
+
+se implementa una event-driven architectura con apache kafka para suplantar los procesos 
+sincrónicos que necesitamos para generar los pagos
+
+Author: Victor Cárcamo
+--------------------------------------------------------------------------------------------
+===[DOCS: cambios en la documentación. Ej: un commit con type, subject y footer]===
+
+docs: se actualiza la versión en el build gradle
+
+Author: Orlando Heredia
+--------------------------------------------------------------------------------------------
+===[STYLE: cambios en el estilo. Ej: un commit con type y subject]===
+
+style: se eliminan imports
+--------------------------------------------------------------------------------------------
+===[CHORE: cambios que pueden ser: proceso de compilación, herramientas auxiliares, 
+       bibliotecas como generadores de documentación. Ej: un commit con type, scope, 
+      subject, breaking change y footer]============================================
+
+chore (subscriptions): se actualiza la api gateway
+
+BREAKING CHANGE : se cambia endpoint para actualizar suscripción de /update a /update/{id}
+
+Author: Orlando Heredia
+--------------------------------------------------------------------------------------------
+===[REFACTOR: cambios en el código que no corrige un error ni agrega una nueva 
+      característica. Ej: un commit con type, scope y subject]================
+
+refactor (payments): se extrae método por duplicidad de código
+--------------------------------------------------------------------------------------------
+===[TEST: agregando pruebas. Ej: type, subject y footer]===
+
+test: se agregan test de integración
+
+Implements: WebTestClient
+--------------------------------------------------------------------------------------------
